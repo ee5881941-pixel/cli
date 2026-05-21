@@ -1,5 +1,5 @@
 {
-  ".": "11.15.0",
+  ".": "11.15.1",
   "workspaces/arborist": "9.6.0",
   "workspaces/libnpmaccess": "10.0.3",
   "workspaces/libnpmdiff": "8.1.8",
@@ -10,6 +10,6 @@
   "workspaces/libnpmpublish": "11.2.0",
   "workspaces/libnpmsearch": "9.0.1",
   "workspaces/libnpmteam": "8.0.2",
-  "workspaces/libnpmversion": "8.0.3",
+  "workspaces/libnpmversion": "8.0.4",
   "workspaces/config": "10.9.1"
 }

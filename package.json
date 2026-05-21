@@ -1,5 +1,5 @@
 {
-  "version": "11.15.0",
+  "version": "11.15.1",
   "name": "npm",
   "description": "a package manager for JavaScript",
   "workspaces": [
@@ -85,7 +85,7 @@
     "libnpmpublish": "^11.2.0",
     "libnpmsearch": "^9.0.1",
     "libnpmteam": "^8.0.2",
-    "libnpmversion": "^8.0.3",
+    "libnpmversion": "^8.0.4",
     "make-fetch-happen": "^15.0.5",
     "minimatch": "^10.2.5",
     "minipass": "^7.1.3",

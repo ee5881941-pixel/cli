@@ -1,5 +1,16 @@
 # Changelog
 
+## [11.15.1](https://github.com/npm/cli/compare/v11.15.0...v11.15.1) (2026-05-21)
+### Bug Fixes
+* [`cde03ba`](https://github.com/npm/cli/commit/cde03ba84049124a431cea36e70558256ead7dbe) [#9388](https://github.com/npm/cli/pull/9388) config: pause progress spinner during interactive editor spawn (#9388) (@github-actions[bot], @Zelys-DFKH, @claude)
+### Documentation
+* [`c5e9d73`](https://github.com/npm/cli/commit/c5e9d73b47056c5a901a7100919f4b29fcfb4d0f) [#9389](https://github.com/npm/cli/pull/9389) Document `npm_old_version` and `npm_new_version` environment variables (#9389) (@github-actions[bot], @36degrees)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmversion-v8.0.4): `libnpmversion@8.0.4`
+
 ## [11.15.0](https://github.com/npm/cli/compare/v11.14.1...v11.15.0) (2026-05-20)
 ### Features
 * [`0d5d899`](https://github.com/npm/cli/commit/0d5d899ea8a6981a2a1d3c724384d12fd1908a90) [#9379](https://github.com/npm/cli/pull/9379) npm stage (@reggi, @Copilot)
