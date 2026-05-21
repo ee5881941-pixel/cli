@@ -1,5 +1,17 @@
 # Changelog
 
+## [12.0.0-pre.0.0](https://github.com/npm/cli/compare/v12.0.0-pre.0.0...v12.0.0-pre.0.0) (2026-05-21)
+### ⚠️ BREAKING CHANGES
+* root \`preinstall\` now runs before dependencies are installed.
+* unknown configs in .npmrc, unknown CLI flags, abbreviated flags, and single-hyphen multi-char shorthands now throw instead of warning.
+### Features
+* [`979518d`](https://github.com/npm/cli/commit/979518dd198b9f2beb788c6c3cdcd1e055b03d22) [#9276](https://github.com/npm/cli/pull/9276) error on unknown configs, flags, and abbreviations (#9276) (@owlstronaut)
+### Bug Fixes
+* [`2a03860`](https://github.com/npm/cli/commit/2a03860fcafe92b22770fc554b25994b29bacbdb) [#9267](https://github.com/npm/cli/pull/9267) run root preinstall before reify (@owlstronaut)
+* [`c0fc549`](https://github.com/npm/cli/commit/c0fc54935af8e17a3a96cbdeac52bb4c597803b6) [#9372](https://github.com/npm/cli/pull/9372) config: pause progress spinner during interactive editor spawn (#9372) (@Zelys-DFKH, @claude)
+### Documentation
+* [`d124c08`](https://github.com/npm/cli/commit/d124c0858da0b138cda2addcb0987b063ca86a47) [#9385](https://github.com/npm/cli/pull/9385) Document `npm_old_version` and `npm_new_version` environment variables (#9385) (@36degrees)
+
 ## [12.0.0-pre.0.0](https://github.com/npm/cli/compare/v11.12.1...v12.0.0-pre.0.0) (2026-05-20)
 ### ⚠️ BREAKING CHANGES
 * npm view --json now always returns an array.

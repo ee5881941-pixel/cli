@@ -1,5 +1,11 @@
 # Changelog
 
+## [11.0.0-pre.0.0](https://github.com/npm/cli/compare/config-v11.0.0-pre.0.0...config-v11.0.0-pre.0.0) (2026-05-21)
+### ⚠️ BREAKING CHANGES
+* unknown configs in .npmrc, unknown CLI flags, abbreviated flags, and single-hyphen multi-char shorthands now throw instead of warning.
+### Features
+* [`979518d`](https://github.com/npm/cli/commit/979518dd198b9f2beb788c6c3cdcd1e055b03d22) [#9276](https://github.com/npm/cli/pull/9276) error on unknown configs, flags, and abbreviations (#9276) (@owlstronaut)
+
 ## [11.0.0-pre.0.0](https://github.com/npm/cli/compare/config-v10.8.1...config-v11.0.0-pre.0.0) (2026-05-20)
 ### ⚠️ BREAKING CHANGES
 * `npm shrinkwrap` is removed, the `shrinkwrap` config alias is removed, and `npm-shrinkwrap.json` is no longer loaded or honored at the project root or from inside dependency tarballs. Rename project-root `npm-shrinkwrap.json` to `package-lock.json`; use `bundleDependencies` if you need to ship a locked dependency tree.
